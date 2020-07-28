@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Unfrustr8",
+    "slug": "snack-d3b5b017-c18f-4d40-a005-412c0557abfa",
+    "ios": {
+      "bundleIdentifier": "com.lightningco.Unfrustr8",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.lightningco.Unfrustr8",
+      "versionCode": 1},
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/snack-icon.png",
+    "splash": {
+      "image": "./assets/snack-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+
+    "web": {
+      "favicon": "./assets/snack-icon.png"
+    },
+    "description": ""
+  }
+}

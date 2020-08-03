@@ -8,7 +8,8 @@
     },
     "android": {
       "package": "com.lightningco.Unfrustr8",
-      "versionCode": 1},
+      "versionCode": 1
+    },
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/snack-icon.png",
@@ -23,7 +24,6 @@
     "assetBundlePatterns": [
       "**/*"
     ],
-
     "web": {
       "favicon": "./assets/snack-icon.png"
     },

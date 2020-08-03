@@ -20,8 +20,12 @@ const devicedimen = Dimensions.get('window');
 
 import { Card } from 'react-native-paper';
 
+export let userid = 'user1';
+export let teamid = 'team1';
+/*
 export let userid = '';
 export let teamid = '';
+*/
 
 export default class App extends React.Component {
   constructor() {
@@ -88,9 +92,14 @@ export default class App extends React.Component {
       }
       
     }
+
+    this.setState({ con: true , pwcheck:true});
+    
+    /*
     if(!this.state.pwcheck){
       alert("Please recheck UserId/Password and Confirm the TeamId")
     }
+    */
   };
 
   render() {
@@ -149,7 +158,11 @@ export default class App extends React.Component {
         <TouchableOpacity style={styles.buttonContainer} onPress={this.register}>
             <Text style={styles.btnText}>Register</Text>
         </TouchableOpacity>
+        <Text style={styles.btnText}>The Project has been Suspended and will not function now as desired</Text>
+        <Text style={styles.btnText}> Press the login button to continue</Text>
         </Card>
+        
+
         </View>
       </ScrollView>
  
